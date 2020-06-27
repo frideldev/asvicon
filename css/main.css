@@ -2105,7 +2105,64 @@ nav a:hover {
   color: #fff;
   right: 20px;
 }
+.primary-btn3 {
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 60px;
+  border-radius: 25px;
+  background: #ffffff;
+  border: none;
+  color: #222;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
 
+.primary-btn3:focus {
+  outline: none;
+}
+
+.primary-btn3 span {
+  color: #222;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  right: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.primary-btn3:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+}
+
+.primary-btn3:hover {
+  color: #97B498;
+}
+
+.primary-btn3:hover span {
+  color: #97B498;
+  right: 20px;
+}
 .no-icon {
   padding-right: 30px;
 }
@@ -2355,7 +2412,8 @@ nav a:hover {
 	height: 54px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 42px;
+  margin-top: 42px;
+  background: #97B498;
 }
 .pricing_item_mid .pricing_button
 {
