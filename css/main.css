@@ -1882,7 +1882,7 @@ body {
 }
 
 .menu-bar span {
-  color: #000;
+  color: #C8E6C9;
   font-size: 24px;
 }
 
@@ -1938,7 +1938,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #2482ff;
+  color: #C8E6C9;
 }
 
 .section-gap {
@@ -1969,9 +1969,9 @@ nav a:hover {
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn:after, .primary-btn2:after, .single-con .content .content-overlay, .footer-social a:hover, .single-footer-widget .bb-btn {
-  background-image: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
-  background-image: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
-  background-image: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background-image: -moz-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
+  background-image: -webkit-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
+  background-image: -ms-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
 }
 
 .p2-gradient-bg {
@@ -1982,9 +1982,9 @@ nav a:hover {
 }
 
 .p1-gradient-color, .banner-content h1, .single-fact h2, .single-footer-widget h3 {
-  background: -moz-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
-  background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
-  background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+  background: -moz-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
+  background: -webkit-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
+  background: -ms-linear-gradient(0deg, #97B498 0%, #C8E6C9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2052,7 +2052,7 @@ nav a:hover {
   padding-left: 30px;
   padding-right: 60px;
   border-radius: 25px;
-  background: #222222;
+  background: #97B498;
   border: none;
   color: #fff;
   display: inline-block;
@@ -2119,7 +2119,8 @@ nav a:hover {
 }
 
 .default-header {
-  background-color: #fff;
+  background-color: #97B498;
+  opacity: 0.85;
   padding: 20px 0;
   width: 100% !important;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
@@ -2224,7 +2225,7 @@ nav a:hover {
 }
 
 .about-area {
-  background-color: #222;
+  background-color:#C8E6C9;
 }
 
 .about-right {
@@ -2247,7 +2248,7 @@ nav a:hover {
 }
 
 .about-right h1 {
-  color: #fff;
+  color: #222;
   margin-bottom: 45px;
 }
 
@@ -2281,7 +2282,7 @@ nav a:hover {
 }
 
 .about-right .option {
-  color: #222;
+  color: #C8E6C9;
 }
 
 .about-right .nice-select span {
@@ -2455,7 +2456,7 @@ nav a:hover {
 }
 
 .single-blog a {
-  color: #222;
+  color: #C8E6C9;
 }
 
 .single-blog .name {
@@ -2508,7 +2509,7 @@ nav a:hover {
 
 .footer-area {
   padding-top: 100px;
-  background-color: #222222;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%), #C8E6C9;
 }
 
 .footer-area .footer-nav li {
