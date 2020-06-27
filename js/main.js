@@ -32,7 +32,10 @@ $(document).ready(function(){
 
   $('.nav-item a:first').tab('show');
 
-
+  $('.parallax-window').parallax({
+    naturalWidth: 600,
+    naturalHeight: 400
+  });
 
   // Select all links with hashes
   $('.main-menubar a[href*="#"]')
